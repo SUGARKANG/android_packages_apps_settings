@@ -4874,9 +4874,6 @@
          device cannot be read from internal settings. [CHAR LIMIT=60] -->
     <string name="verifier_device_identifier_not_available">Device information not available</string>
 
-    <!-- Kill app long-press back -->
-    <string name="kill_app_longpress_back">Kill app back button</string>
-    <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key</string>
 
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
@@ -4970,4 +4967,80 @@
     <string name="gestures_action_recent">Recent applications</string>
 
     <!-- **** CYANOGENMOD ADDITIONS END **** -->
+    <!-- **** TEAM OSIRIS EDITS BEGIN **** -->
+
+    <!-- Settings | About -->
+    <string name="learn_more_title">Team Osiris</string>
+    <string name="Osiris_website_title">Team Osiris Website</string>
+    <string name="Osiris_website_summary">Visit Our Website</string>
+    <string name="Osiris_source_title">Team Osiris Github</string>
+    <string name="Osiris_source_summary">View Our Project</string>
+    <string name="Osiris_irc_title">Team Osiris IRC</string>
+    <string name="Osiris_irc_summary">IRC Freenode #OsirisTM</string>
+    <string name="devs">TeamOsiris</string>
+    <string name="about_Team_Osiris_title">About</string>
+    <string name="about_osiris_title">About</string>
+    
+
+    <!-- Settings | Headers -->
+    <string name="sugarkang_category_title">SUGARKANG</string>
+    <string name="sugar_rush_title">Sugar Rush</string>
+    <string name="interface_settings_title">Interface Settings</string>
+    <string name="color_effect_title">Lockscreen Wave Effect Color</string>
+    <string name="color_effect_summary">Adjusts color of the Lockscreen wave effect\'s color</string>
+    <!-- Settings | Options -->
+
+    <!-- Customization | Interface -->
+    <string name="notification_wallpaper_title">Custom Background</string>
+    <string name="notification_wallpaper_summary">Select background for notification shade</string>
+    <string name="notif_wallpaper_alpha_title">Background Alpha</string>
+    <string name="notif_wallpaper_alpha_summary">Adjust transparency of the selected image</string>
+    <string name="alpha_dialog_title">Alpha Value</string>
+    <string name="custom_carrier_label_title">Carrier Label</string>
+    <string name="custom_carrier_label_explain">Please enter a new label. Empty label to revert to stock</string>
+    <string name="custom_carrier_label_notset">Custom label currently not set</string>
+    <string name="recent_kill_all">Kill-All-Button</string>
+    <string name="recent_kill_all_summary">Displays a button on recents window</string>
+    <string name="lefty_mode_title">Lefty Mode</string>
+    <string name="lefty_mode_summary">Move navbar location to left</string>
+    <string name="ram_bar">Recents RAM Bar</string>
+    <string name="ram_bar_summary">Shows RAM usage in the recents menu</string>
+    <string name="kill_app_longpress_back">Hold Back-To-Kill</string>
+    <string name="kill_app_longpress_back_summary">Holding back will kill the current activity</string>
+    <string name="enable_alarm_icon_title">Alarm Icon</string>
+    <string name="enable_alarm_icon__summary">After disabling or enabling, you must toggle your alarms for it take affect</string>
+    <string name="tablet_ui">Force Tablet UI</string>
+    <string name="tablet_ui_summary">This will force switch to Tablet UI</string>
+    <string name="lcd_density_title">LCD Density</string>
+    <string name="lcd_density_summary">unknown</string>
+
+    <!-- Interface | LCD Density -->
+    <string name="current_lcd_density">"Current LCD Density: "</string>
+    <string name="lcd_density_wizard">LCD Density Wizard</string>
+    <string name="follow_through_title">Follow Through!</string>
+    <string name="follow_through_summary">Make sure you follow the steps one-by-one and complete each one before proceeding to the next.</string>
+    <string name="stock_density_title">1. Change LCD Density to stock value</string>
+    <string name="stock_density_summary">Tablets and older phones use 160. Most phones use 240. Galaxy Nexus uses 320 by default.</string>
+    <string name="stock_density_changed_summary">"Density set to: "</string>
+    <string name="reboot_title">2. Reboot!</string>
+    <string name="reboot_summary">Come back here after the reboot and complete the rest of the steps!</string>
+    <string name="clear_market_data_title">3. Clear market data</string>
+    <string name="clear_market_data_cleared">Market data cleared</string>
+    <string name="clear_market_data_donot_cleared">"Market data couldn't be cleared, please clear it yourself!"</string>
+    <string name="open_market_title">4. Open Market and hit accept</string>
+    <string name="open_market_summary">Press back when done to return here.</string>
+    <string name="open_market_summary_could_not_open">"Couldn't open the market! If you're sure it's installed, open it yourself from the launcher."</string>
+    <string name="custom_density_title">5. Change density to whatever you like!</string>
+    <string name="custom_density_summary">If you ever have compatibility issues with the market, be sure to return here and repeat the process.</string>
+    <string name="custom_density_summary_invalid">"INVALID DENSITY!"</string>
+    <string name="custom_density">Custom</string>
+    <string name="set_custom_density_title">Set Custom Density</string>
+    <string name="set_custom_density_set">Set</string>
+    <string name="custom_density_dialog_title">"WARNING!"</string>
+    <string name="custom_density_dialog_summary">"Changing your LCD density can cause unexpected app behavior. If you encounter market app incompatibility please return here and restart the process from step 1."</string>
+    <string name="custom_density_dialog_button_got">Got It!</string>
+    <string name="custom_density_dialog_button_reboot">Reboot Now</string>
+    <string name="dpi">DPI</string>
+    <string name="group_applications">Applications</string>
+
 </resources>

@@ -49,6 +49,16 @@
         <intent android:action="com.android.settings.OPERATOR_APPLICATION_SETTING" />
     </header>
 
+    <!-- SUGAR KANG -->
+    <header android:title="@string/sugarkang_category_title" />
+
+    <!-- Sugar Kang Settings -->
+    <header
+        android:id="@+id/Sugar_rush"
+        android:icon="@drawable/ic_settings_sugar"
+        android:title="@string/sugar_rush_title"
+        android:fragment="com.android.settings.osiris.SugarRush" />
+
     <!-- Other wireless and network controls -->
     <header
         android:id="@+id/wireless_settings"
@@ -69,7 +79,7 @@
     <!-- Lock screen -->
     <header
         android:id="@+id/lock_screen_settings"
-        android:fragment="com.android.settings.cyanogenmod.LockscreenInterface"
+        android:fragment="com.android.settings.osiris.LockscreenInterface"
         android:title="@string/lock_screen_title"
         android:icon="@drawable/ic_settings_lockscreen" />
 
@@ -88,7 +98,7 @@
     <header
         android:id="@+id/system_settings"
         android:icon="@drawable/ic_settings_system"
-        android:fragment="com.android.settings.cyanogenmod.SystemSettings"
+        android:fragment="com.android.settings.osiris.SystemSettings"
         android:title="@string/system_settings_title" />
 
     <!-- DEVICE -->
@@ -239,7 +249,7 @@
     <!-- Performance -->
     <header
         android:id="@+id/performance_settings"
-        android:fragment="com.android.settings.cyanogenmod.PerformanceSettings"
+        android:fragment="com.android.settings.osiris.PerformanceSettings"
         android:icon="@drawable/ic_settings_performance"
         android:title="@string/performance_settings_title" />
 

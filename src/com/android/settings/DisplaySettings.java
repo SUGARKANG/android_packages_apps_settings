@@ -39,7 +39,7 @@ import android.util.Log;
 
 import com.android.internal.view.RotationPolicy;
 import com.android.settings.DreamSettings;
-import com.android.settings.cyanogenmod.DisplayRotation;
+import com.android.settings.osiris.DisplayRotation;
 import java.util.ArrayList;
 
 public class DisplaySettings extends SettingsPreferenceFragment implements

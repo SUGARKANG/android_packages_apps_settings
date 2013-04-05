@@ -51,6 +51,6 @@
             android:key="widget_order"
             android:title="@string/title_widget_order"
             android:summary="@string/summary_widget_order"
-            android:fragment="com.android.settings.cyanogenmod.TabletPowerWidget$PowerWidgetOrder" />
+            android:fragment="com.android.settings.osiris.TabletPowerWidget$PowerWidgetOrder" />
 
 </PreferenceScreen>
